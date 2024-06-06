@@ -1,0 +1,162 @@
+/* Style Css */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: rgb(171, 168, 168);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.header {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 7px;
+}
+
+#form {
+    margin-top: 11px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#form label {
+    font-size: 13px;
+    color: white;
+}
+
+.input-box {
+    flex-basis: 60%;
+}
+
+#input-form {
+    width: 97%;
+    padding: 5px;
+    border: 1px solid cornflowerblue;
+}
+
+#form #submit-form {
+    flex-basis: 25%;
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#form #submit-form:hover {
+    background-color: white;
+    border: 2px solid cornflowerblue;
+    color: cornflowerblue;
+}
+
+#ul{
+    max-width: 600px;
+    margin: 10px auto;
+    list-style: none;
+    
+}
+
+#ul .judul{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+}
+
+#todoItem {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#ul #todo{
+    padding: 5px;
+    flex-basis: 80%;
+}
+
+#ul #delete{
+    flex-basis: 30%;
+    background-color: crimson;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+#ul #delete:hover{
+    background-color: rgb(156, 5, 35);
+    color: white;
+}
+
+#ul #completed{
+    padding: 5px;
+    background-color: rgb(38, 180, 38);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    margin-right: 15px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#ul #completed:hover{
+    background-color: rgb(8, 125, 8);
+    color: white;
+}
+
+#ul #todoItem{
+    background-color: rgb(197, 192, 192);
+    margin-bottom:10px;
+}
+
+#ul #massage{
+    color: white;
+}
+
+.line{
+    text-decoration: line-through;
+    color: black;
+}
+/* Akhir style css */
+
+/* Untuk Responsiv Web */
+@media screen and (max-width: 578px) {
+    .container{
+        width: 100%;
+    }
+
+    #ul{
+        width: 100%;
+    }
+}
+/* Akhir untuk Responsiv Web */
